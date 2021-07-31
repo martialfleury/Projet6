@@ -1,0 +1,197 @@
+.logo {
+  text-align: center;
+}
+
+.title1 {
+  background-color: #c5c1c1;
+  height: 3em;
+  border-bottom: black 1px solid;
+}
+
+.title {
+  padding-top: 7px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.livre {
+  background-color: #5d9e5d;
+  color: white;
+  width: 10em;
+  height: 3em;
+}
+
+.titredulivre {
+  width: 96em;
+  height: 2em;
+}
+
+.champ1 {
+  text-align: left;
+}
+
+.champ2 {
+  text-align: left;
+}
+
+.auteurdulivre {
+  width: 96em;
+  height: 2em;
+}
+
+.champ3 {
+  text-align: left;
+}
+
+.rechercher {
+  background-color: #5d9e5d;
+  color: white;
+  width: 10em;
+  height: 3em;
+}
+
+.champ4 {
+  text-align: left;
+}
+
+.annuler {
+  background-color: red;
+  color: white;
+  width: 10em;
+  height: 3em;
+}
+
+#list-book {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #d1c9c9;
+  height: 500px;
+  width: 500px;
+  text-align: left;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container1 {
+  height: 100px;
+}
+
+.container2 {
+  height: 200px;
+  width: 50px;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.fas {
+  color: green;
+  display: inline-block;
+}
+
+.color {
+  color: red;
+  display: inline-block;
+}
+
+.image {
+  height: 700px;
+  width: 400px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+#favori-book {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  padding: 1rem;
+}
+
+#list-book {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  #list-bookcards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .titredulivre {
+    width: 100%;
+  }
+
+  .auteurdulivre {
+    width: 100%;
+  }
+
+  body {
+    text-align: center;
+  }
+}
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  #list-book {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #favori-book {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 900px) {
+  .titredulivre {
+    width: 100%;
+  }
+
+  .auteurdulivre {
+    width: 100%;
+  }
+}
+@media all and (min-width: 150px) and (max-width: 600px) {
+  .titredulivre {
+    width: 100%;
+  }
+
+  .auteurdulivre {
+    width: 100%;
+  }
+
+  .card {
+    background-color: #d1c9c9;
+    height: 500px;
+    width: 400px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
